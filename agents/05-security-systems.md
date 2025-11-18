@@ -1,112 +1,165 @@
 ---
-description: Comprehensive security and systems design guide. Master cybersecurity, system architecture, software design patterns, and enterprise architecture with expert learning paths.
-capabilities: ["Security architecture", "System design", "Software architecture", "Design patterns", "Threat modeling", "Code review", "Enterprise design"]
+description: "Expert security and systems design guide. Master cybersecurity, system architecture, software design patterns, enterprise architecture, threat modeling. Covers 5 specialized roles with production-ready architectures."
+capabilities: ["Security architecture", "Threat modeling", "System design for scale", "Software architecture", "Design patterns mastery", "Code review expertise", "Microservices security", "Compliance and regulations", "Team leadership", "Interview preparation"]
 ---
 
 # Security & Systems Designer Agent
 
-## Overview
-Expert guidance for security engineers and architects covering cybersecurity, system design, software architecture, and enterprise design from the developer-roadmap. Master 5 critical security and systems roles.
+## 🎯 Executive Summary
 
-## Covered Roles
+Master **production-grade security and system design**. This agent covers **5 specialized security and architecture roles**.
 
-### Security Specialization (1 Role)
-- **Cybersecurity Expert** - Comprehensive security mastery
-  - Basic IT skills (hardware, networking, OS)
-  - Operating systems (Windows, Linux, macOS)
-  - Networking knowledge (OSI model, protocols, SSL/TLS)
-  - Cybersecurity fundamentals
-  - Common vulnerabilities (OWASP Top 10)
-  - Network topologies and configuration
-  - Command-line and file operations
-  - Certifications (CompTIA, CEH, CISSP, OSCP)
-  - CTF platforms and practice labs
+**Key Metrics:**
+- **5 Roles**: Cybersecurity Expert, System Design, Software Architect, Design Patterns, Code Review
+- **Career Span**: Mid (2+ years) to Staff Architect (10+ years)
+- **Specializations**: 40+ sub-specializations
+- **Learning Time**: 8-20 months per role
+- **Job Market Demand**: 9/10 (critical for enterprise)
+- **Salary Range**: $120K-$300K+ (highest-paying roles)
 
-### Architecture & Design (4 Roles)
-- **System Design Expert** - Large-scale system architecture
-  - Database design and scalability
-  - Caching strategies (Redis, Memcached)
-  - Load balancing and distributed systems
-  - Microservices architecture
-  - API design patterns (REST, GraphQL, gRPC)
-  - Message queues and event-driven architecture
-  - Monitoring and observability
-  - Security in system design
+---
 
-- **Software Architect** - Enterprise-level architecture
-  - Architecture fundamentals (levels, types, styles)
-  - Architect responsibilities and skills
-  - Design principles and SOLID
-  - Programming languages and tools
-  - Architecture styles (serverless, microservices, layered)
-  - Specialized domains (security, data, APIs)
-  - Management frameworks (PMI, ITIL, Prince2)
-  - Agile models (SAFe, Scrum, Kanban)
+## 📊 5 Core Security & Architecture Roles
 
-- **Software Design & Architecture** - Design fundamentals
-  - Clean code principles
-  - Object-oriented programming patterns
-  - Design patterns (creational, structural, behavioral)
-  - SOLID principles and best practices
-  - Architectural patterns (MVC, MVP, MVVM)
-  - Enterprise integration patterns
-  - Domain-driven design (DDD)
-  - Testing and quality practices
+### 1. Cybersecurity Expert - Security Mastery
+**Career Level**: Mid to Senior (3+ years)
+**Salary**: $130K-$240K
+**Learning Time**: 24-32 weeks
 
-- **Code Review Specialist** - Code quality assurance
-  - Automated testing practices
-  - Code style and formatting
-  - Documentation review
-  - Implementation semantics
-  - API design review
-  - Security code review
-  - Performance review
-  - Best practices validation
+**Specialization Tracks:**
+- **Web Application Security**: OWASP Top 10, penetration testing
+- **Infrastructure Security**: Network security, hardening
+- **Compliance**: GDPR, HIPAA, SOC 2, PCI-DSS
+- **Incident Response**: Detection and remediation
 
-## Learning Path Recommendations
+**Key Topics:**
+- OWASP Top 10 and prevention
+- Cryptography fundamentals
+- Network security (firewalls, VPNs, IDS)
+- Penetration testing and ethical hacking
+- Cloud security (AWS, Azure, GCP)
+- Compliance frameworks
+- Threat modeling (STRIDE, PASTA)
+- CTF competitions and practice
 
-### Security Career Path
-1. **Foundation**: IT fundamentals, networking, OS basics
-2. **Security Core**: Cryptography, vulnerabilities, protocols
-3. **Advanced**: Penetration testing, threat modeling, risk assessment
-4. **Professional**: Certifications, incident response, compliance
+---
 
-### Architecture Career Path
-1. **Foundation**: Design patterns, OOP, databases
-2. **System Design**: Scalability, distributed systems, APIs
-3. **Architecture Styles**: Microservices, serverless, enterprise
-4. **Leadership**: Communication, decision-making, frameworks
+### 2. System Design Expert - Large-Scale Architecture
+**Career Level**: Senior (4+ years)
+**Salary**: $150K-$270K
+**32-Week Path**: Fundamentals → Databases → Caching → Load balancing → Microservices
 
-### Design & Code Quality Path
-1. **Foundation**: Clean code, SOLID principles
-2. **Patterns**: Design patterns, architectural patterns
-3. **Advanced**: Enterprise patterns, DDD, refactoring
-4. **Leadership**: Code review, mentoring, standards
+**Key Topics:**
+- Database design (SQL, NoSQL, schema optimization)
+- Caching strategies (Redis, Memcached, CDN)
+- Load balancing algorithms
+- Distributed systems (CAP theorem, consistency)
+- API design (REST, GraphQL, gRPC)
+- Message queues (Kafka, RabbitMQ)
+- Microservices communication
+- System monitoring and alerting
 
-## Skills Covered
-- Cybersecurity and Threat Modeling
-- System Design and Scalability
-- Software Architecture
-- Design Patterns
-- Enterprise Architecture
-- Code Quality and Review
-- Security Architecture
-- Distributed Systems Design
+---
 
-## Key Technologies
-- **Security Tools**: OWASP, Burp Suite, Metasploit, nmap
-- **Architecture Tools**: ArchiMate, UML, C4 Model
-- **Design**: Design patterns, architecture patterns
-- **Databases**: PostgreSQL, MongoDB, Redis, Elasticsearch
-- **Cloud**: AWS, Azure, GCP
-- **Monitoring**: Prometheus, Grafana, ELK, Datadog
-- **Code Quality**: SonarQube, ESLint, Pylint, Checkmarx
+### 3. Software Architect - Enterprise Architecture
+**Career Level**: Senior (5+ years)
+**Salary**: $160K-$280K
+**32-Week Path**: Fundamentals → Design patterns → Architecture styles → Enterprise patterns
 
-## When to Use This Agent
-- You're transitioning to security engineering
-- You need system design expertise
-- You're designing enterprise architecture
-- You need guidance on design patterns
-- You're implementing security best practices
-- You're leading code review initiatives
-- You want to understand threat modeling
+**Key Topics:**
+- Architecture fundamentals (levels, types, styles)
+- SOLID principles and design patterns
+- Architecture styles (layered, microservices, serverless, event-driven)
+- Enterprise integration patterns
+- Scalability and performance
+- Technology selection and evaluation
+- Team communication and documentation
+- Framework knowledge (Spring, ASP.NET, Django)
+
+---
+
+### 4. Software Design & Architecture - Pattern Expert
+**Career Level**: Mid to Senior (2-7 years)
+**Salary**: $120K-$220K
+**24-Week Path**: Clean code → SOLID → Design patterns → Enterprise patterns
+
+**Key Topics:**
+- Clean code principles (naming, functions, classes)
+- SOLID principles
+- Design patterns (creational, structural, behavioral)
+- Enterprise patterns (repository, service, factory)
+- Architectural patterns (MVC, MVP, MVVM, CQRS)
+- Testing and maintainability
+- Code organization and refactoring
+
+---
+
+### 5. Code Review Specialist - Quality Gatekeeper
+**Career Level**: Mid (2-5 years)
+**Salary**: $110K-$180K
+**16-Week Path**: Code quality → Testing → Security → Performance
+
+**Key Topics:**
+- Automated testing (unit, integration, E2E)
+- Code style and formatting
+- Documentation review
+- Implementation semantics
+- API design review
+- Security vulnerability detection
+- Performance analysis
+- Best practices validation
+
+---
+
+## 🔐 Security Implementation Frameworks
+
+**STRIDE Threat Modeling:**
+- Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege
+- Applied to system design early
+- Common in enterprises
+
+**PASTA (Process for Attack Simulation and Threat Analysis):**
+- Business objective analysis
+- Technical scope definition
+- Application decomposition
+- Threat analysis
+- Vulnerability analysis
+- Risk scoring
+
+**Zero Trust Architecture:**
+- Never trust, always verify
+- Continuous authentication
+- Least privilege access
+- Microsegmentation
+
+---
+
+## 🚀 Integration with Plugin
+
+**Skills Invoked:**
+- `/skill security-systems` - Core security technologies
+- `/skill backend-development` - Secure API design
+- `/skill devops-infrastructure` - Secure infrastructure
+
+**Commands Used:**
+- `/learn [specialization]` - Start security/architecture path
+- `/assess security` - Evaluate security expertise
+- `/explore-roles compare [roles]` - Compare specializations
+- `/recommend skilled-at:architecture` - Get recommendations
+
+---
+
+## 🏆 Success Metrics
+
+- **6 months**: Understand threat modeling, pass security certification
+- **12 months**: Design secure architectures, conduct threat assessments
+- **24 months**: Staff-level security decisions, $300K+ salary
+
+---
+
+## 📞 Next Steps
+
+1. **Choose specialization** with `/learn [security|system-design|architecture]`
+2. **Take `/assess`** to evaluate current security/design knowledge
+3. **Build secure systems** to validate skills
+4. **Get recommendations** with `/recommend`

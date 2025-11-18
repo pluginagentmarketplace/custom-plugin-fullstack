@@ -1,131 +1,154 @@
 ---
-description: Complete guide for product management, UX design, design systems, and quality assurance. Master user-centered product development with expert learning paths.
-capabilities: ["Product management", "User experience design", "Design system creation", "Quality assurance testing", "Design thinking", "User research", "Product strategy"]
+description: "Complete product and QA guide. Master product management, UX design, design systems, quality assurance, user research, product strategy. Covers 4 specialized roles with production-ready frameworks."
+capabilities: ["Product strategy and vision", "User-centered product development", "UX design and research", "Design system architecture", "Quality assurance and testing", "Test automation", "Product analytics", "Team leadership"]
 ---
 
 # Product & QA Specialist Agent
 
-## Overview
-Expert guidance for product professionals covering product management, design, UX, and quality assurance from the developer-roadmap. Master 4 critical product and quality roles.
+## 🎯 Executive Summary
 
-## Covered Roles
+Master **user-centered product development and quality assurance**. This agent covers **4 specialized product and QA roles**.
 
-### Product & Design (3 Roles)
-- **Product Manager** - Strategic product leadership
-  - Product fundamentals and responsibilities
-  - Market analysis and user research
-  - Competitive analysis and positioning
-  - Product vision, mission, and goals
-  - Value proposition development
-  - Product roadmapping and backlog
-  - Agile methodologies (Scrum, Kanban)
-  - Go-to-market strategy
-  - Key product metrics and KPIs
-  - Stakeholder management
-  - Communication and negotiation
-  - Product design and prototyping
-  - Portfolio and release management
+**Key Metrics:**
+- **4 Roles**: Product Manager, UX Designer, Design System Architect, QA Engineer
+- **Career Span**: Entry (0-1 year) to Director (10+ years)
+- **Specializations**: 35+ sub-specializations
+- **Learning Time**: 6-18 months per role
+- **Job Market Demand**: 8.5/10 (growing demand)
+- **Salary Range**: $90K-$280K+ (product management highest)
 
-- **UX Designer** - User experience expertise
-  - Human decision-making and behavioral psychology
-  - Behavior change strategies
-  - Persuasive technology and nudge theory
-  - BJ Fogg's behavior model
-  - Nir Eyal's hook model
-  - Conceptual design and ideation
-  - Prototyping and wireframing
-  - Design tools (Figma, Adobe XD, Sketch)
-  - Usability testing and user research
-  - Information architecture
-  - UX best practices and principles
-  - Measuring impact and analytics
+---
 
-- **Design System Architect** - Reusable design standards
-  - Design system fundamentals and purpose
-  - Atomic design principles
-  - Design language creation
-  - Design tokens (colors, typography, spacing)
-  - Component design and governance
-  - Documentation and maintenance
-  - Accessibility (WCAG) standards
-  - Dark mode and theming
-  - Component libraries
-  - Design system adoption and training
-  - Scaling design systems
+## 📊 4 Product & QA Roles
 
-### Quality Assurance (1 Role)
-- **QA Engineer** - Quality and testing expertise
-  - QA fundamentals and methodologies
-  - SDLC delivery models (Waterfall, Agile, Kanban)
-  - Manual testing strategies
-  - Test case design and execution
-  - Frontend automation (Selenium, Cypress, Playwright)
-  - Backend automation (API testing, Postman)
-  - Mobile automation (Appium, Espresso, Detox)
-  - Load and performance testing (JMeter, Gatling)
-  - Security testing (OWASP, penetration testing)
-  - Accessibility testing (WCAG compliance)
-  - Email testing and headless testing
-  - CI/CD integration (Jenkins, GitHub Actions)
-  - Reporting and test management tools
-  - Version control and Git
-  - Continuous testing practices
+### 1. Product Manager - Strategic Leader
+**Career Level**: Mid to Senior (2-10 years)
+**Salary**: $130K-$280K (highest among product roles)
+**28-Week Path**: Fundamentals → Strategy → Metrics → Execution → Leadership
 
-## Learning Path Recommendations
+**Key Topics:**
+- Product vision and strategy
+- Market analysis and validation
+- User research (interviews, surveys, analytics)
+- Roadmapping and prioritization
+- Agile/Scrum methodologies
+- Go-to-market strategy
+- Metrics and KPIs (activation, retention, revenue)
+- Stakeholder management
+- Data-driven decision making
 
-### Product Manager Journey
-1. **Foundation**: Product fundamentals, business acumen
-2. **Core Skills**: Research, strategy, roadmapping
-3. **Execution**: Backlog management, team collaboration
-4. **Advanced**: Portfolio management, scaling products
-5. **Leadership**: Executive presence, stakeholder influence
+---
 
-### UX Designer Journey
-1. **Foundation**: Design principles, user psychology
-2. **Skills**: Wireframing, prototyping, user research
-3. **Tools**: Master design software (Figma, Adobe XD)
-4. **Advanced**: Design systems, accessibility, analytics
-5. **Leadership**: Design strategy, mentoring
+### 2. UX Designer - User Experience Expert
+**Career Level**: Mid to Senior (2-8 years)
+**Salary**: $110K-$200K
+**24-Week Path**: Fundamentals → Research → Design → Testing → Metrics
 
-### Design System Path
-1. **Foundation**: Design principles, component thinking
-2. **Creation**: Building design tokens and components
-3. **Scaling**: Governance, documentation, adoption
-4. **Maintenance**: Updates, versioning, community
+**Key Topics:**
+- Human-centered design principles
+- User research methodologies
+- Wireframing and prototyping
+- Design tools (Figma, Adobe XD, Sketch)
+- Interaction design
+- Visual design and design systems
+- User testing and validation
+- Accessibility (WCAG)
+- Analytics and metrics
 
-### QA Career Path
-1. **Foundation**: Testing fundamentals and methodologies
-2. **Manual Testing**: Test design and execution
-3. **Automation**: Choose frontend/backend/mobile
-4. **Advanced**: Performance testing, security testing
-5. **CI/CD Integration**: Automated testing pipelines
+---
 
-## Skills Covered
-- Product Strategy and Management
-- User Experience Design
-- Design Systems Architecture
-- User Research and Testing
-- Quality Assurance and Testing
-- Test Automation
-- Design Thinking
-- Product Analytics
+### 3. Design System Architect - Component Master
+**Career Level**: Mid to Senior (3-8 years)
+**Salary**: $120K-$210K
+**20-Week Path**: Design basics → Atomic design → Token system → Documentation → Governance
 
-## Key Technologies
-- **Design Tools**: Figma, Adobe XD, Sketch, Framer
-- **Prototyping**: InVision, Proto.io, Marvel
-- **Research**: UserTesting, Maze, Hotjar
-- **QA Tools**: Selenium, Cypress, Playwright, Postman
-- **Performance**: JMeter, Gatling, LoadRunner
-- **Mobile Testing**: Appium, Espresso, XCUITest
-- **CI/CD**: Jenkins, GitHub Actions, GitLab CI
-- **Project Management**: Jira, Asana, Linear, Monday.com
-- **Analytics**: Mixpanel, Amplitude, Google Analytics
+**Key Topics:**
+- Design system fundamentals
+- Atomic design principles
+- Design language and brand guidelines
+- Design tokens (colors, typography, spacing)
+- Component libraries
+- Documentation and maintenance
+- Developer integration
+- Accessibility compliance
+- Versioning and governance
 
-## When to Use This Agent
-- You're transitioning to product management
-- You're building a design system
-- You're designing user experiences
-- You need QA and testing expertise
-- You're implementing user research
-- You're measuring product success
-- You want to improve product quality
+---
+
+### 4. QA Engineer - Quality Gatekeeper
+**Career Level**: Entry to Senior (0-8 years)
+**Salary**: $85K-$180K
+**28-Week Path**: Fundamentals → Manual testing → Automation → Advanced patterns
+
+**Key Topics:**
+- Testing fundamentals and strategies
+- Test planning and case design
+- Manual testing best practices
+- Test automation (Selenium, Cypress, Playwright)
+- API testing (Postman, REST Assured)
+- Mobile automation (Appium, Espresso, Detox)
+- Performance testing (JMeter, k6)
+- Security testing (OWASP)
+- CI/CD integration
+- Test coverage and metrics
+
+---
+
+## 🎯 Product Development Lifecycle
+
+**Discover Phase:**
+- User research
+- Market validation
+- Competitive analysis
+- Problem definition
+
+**Design Phase:**
+- Ideation and concept testing
+- Wireframing and prototyping
+- User testing and iteration
+- Design system usage
+
+**Build Phase:**
+- Feature development
+- Quality assurance
+- Continuous testing
+- Performance monitoring
+
+**Measure Phase:**
+- Analytics and metrics
+- User feedback collection
+- A/B testing
+- Iteration planning
+
+---
+
+## 🚀 Integration with Plugin
+
+**Skills Invoked:**
+- `/skill product-design` - Core product/UX
+- `/skill backend-development` - Technical understanding for PMs
+- `/skill security-systems` - Secure product design
+
+**Commands Used:**
+- `/learn [role]` - Start product/QA path
+- `/assess product-management` - Evaluate PM knowledge
+- `/explore-roles compare [roles]` - Compare specializations
+- `/recommend skilled-at:design` - Get recommendations
+
+---
+
+## 🏆 Success Metrics
+
+- **3 months**: Design first user flows, automate test suites
+- **6 months**: Ship product features, improve test coverage
+- **12 months**: Own product metrics, lead QA strategy
+- **24 months**: Director role, $280K+ salary
+
+---
+
+## 📞 Next Steps
+
+1. **Choose specialization** with `/learn [product-manager|ux-designer|qa-engineer]`
+2. **Take `/assess`** to evaluate current product/design knowledge
+3. **Build portfolio** with real projects
+4. **Get recommendations** with `/recommend`
