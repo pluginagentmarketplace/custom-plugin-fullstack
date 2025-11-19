@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "command-executed",
+      "name": "track-learning-progress",
+      "description": "Track user progress through learning paths",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "log-progress",
+          "data": {
+            "event": "learning_milestone",
+            "track_user_journey": true,
+            "enable_achievements": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "skill-completed",
+      "name": "skill-completion-handler",
+      "description": "Handle skill completion and unlock next topics",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "unlock-content",
+          "data": {
+            "next_topic_enabled": true,
+            "show_congratulations": true,
+            "recommend_next_path": true
+          }
+        },
+        {
+          "action": "update-profile",
+          "data": {
+            "update_user_skills": true,
+            "calculate_proficiency": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "assessment-completed",
+      "name": "assessment-completion-handler",
+      "description": "Generate assessment report and recommendations",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "generate-report",
+          "data": {
+            "detailed_analysis": true,
+            "identify_gaps": true,
+            "suggest_learning_path": true
+          }
+        },
+        {
+          "action": "personalize-recommendations",
+          "data": {
+            "use_ai_matching": true,
+            "consider_market_trends": true,
+            "suggest_resources": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "project-created",
+      "name": "project-tracker",
+      "description": "Track user projects and learning through building",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "validate-project",
+          "data": {
+            "check_requirements": true,
+            "provide_feedback": true
+          }
+        },
+        {
+          "action": "award-badges",
+          "data": {
+            "project_completion": true,
+            "quality_metrics": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "community-interaction",
+      "name": "community-engagement",
+      "description": "Encourage and track community participation",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "log-participation",
+          "data": {
+            "track_questions_asked": true,
+            "track_answers_given": true,
+            "track_collaborations": true
+          }
+        },
+        {
+          "action": "suggest-discussions",
+          "data": {
+            "based_on_learning_path": true,
+            "connect_with_peers": true
+          }
+        }
+      ]
+    },
+    {
+      "event": "milestone-achieved",
+      "name": "milestone-celebration",
+      "description": "Celebrate learning milestones and achievements",
+      "enabled": true,
+      "handlers": [
+        {
+          "action": "send-celebration",
+          "data": {
+            "show_notification": true,
+            "award_certificate": true,
+            "share_achievement": true
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "enabled": true,
+    "logging": true,
+    "error_handling": "graceful",
+    "timeout_ms": 5000,
+    "retry_attempts": 3,
+    "retry_delay_ms": 1000
+  }
+}
