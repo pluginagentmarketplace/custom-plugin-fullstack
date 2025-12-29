@@ -1,9 +1,9 @@
 {
-  "name": "Developer Roadmap",
+  "name": "fullstack-assistant",
   "version": "1.0.0",
   "description": "Complete developer learning paths for 65+ roles from https://github.com/kamranahmedse/developer-roadmap. Navigate frontend, backend, DevOps, AI/Data, security, product, and career growth with 7 specialized agents and comprehensive learning resources.",
   "author": "Claude Code",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "developer-roadmap",
     "learning-paths",

@@ -1,3 +1,9 @@
+---
+name: learn
+description: Start Learning Path
+allowed-tools: Read
+---
+
 # /learn - Start Learning Path
 
 Start a guided learning journey for any developer role from the 65+ roles in the roadmap.

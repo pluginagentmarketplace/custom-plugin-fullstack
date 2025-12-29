@@ -1,0 +1,12 @@
+areas:
+  - authentication
+  - authorization
+  - encryption
+vulnerabilities:
+  - owasp_top_10
+  - injection
+  - xss
+tools:
+  - jwt
+  - oauth2
+  - vault

@@ -1,3 +1,9 @@
+---
+name: recommend
+description: Get Role Recommendations
+allowed-tools: Read
+---
+
 # /recommend - Get Role Recommendations
 
 Get personalized role recommendations based on your skills, interests, and career goals.

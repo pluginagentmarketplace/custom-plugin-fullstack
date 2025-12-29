@@ -1,0 +1,13 @@
+frameworks:
+  - react
+  - vue
+  - angular
+  - svelte
+bundlers:
+  - vite
+  - webpack
+  - esbuild
+styling:
+  - tailwind
+  - css_modules
+  - styled_components

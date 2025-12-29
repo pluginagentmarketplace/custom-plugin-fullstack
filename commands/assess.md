@@ -1,3 +1,9 @@
+---
+name: assess
+description: Knowledge Assessment
+allowed-tools: Read
+---
+
 # /assess - Knowledge Assessment
 
 Assess your current knowledge level and get personalized recommendations for development.

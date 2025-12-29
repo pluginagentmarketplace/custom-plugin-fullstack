@@ -1,0 +1,12 @@
+management:
+  - roadmap
+  - prioritization
+  - stakeholders
+processes:
+  - agile
+  - scrum
+  - kanban
+tools:
+  - jira
+  - linear
+  - notion

@@ -1,3 +1,9 @@
+---
+name: explore-roles
+description: roles - Browse All Developer Roles
+allowed-tools: Read
+---
+
 # /explore-roles - Browse All Developer Roles
 
 Explore and compare all 65+ developer roles from the roadmap. Find the perfect fit for your career.

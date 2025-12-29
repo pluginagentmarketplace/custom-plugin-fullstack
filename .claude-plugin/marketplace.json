@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-fullstack",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fullstack-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for fullstack development",
+      "version": "1.0.0"
+    }
+  ]
+}

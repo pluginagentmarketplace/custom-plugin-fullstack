@@ -1,0 +1,14 @@
+languages:
+  - nodejs
+  - python
+  - go
+  - rust
+frameworks:
+  - express
+  - fastapi
+  - gin
+  - actix
+databases:
+  - postgresql
+  - mongodb
+  - redis

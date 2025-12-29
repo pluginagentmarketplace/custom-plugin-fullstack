@@ -328,7 +328,6 @@ User executes command
 ## 📞 Support & Next Steps
 
 **To Use This Plugin:**
-1. Load from local directory: `./developer-roadmap-plugin`
 2. Commands: `/learn`, `/explore-roles`, `/assess`, `/recommend`
 3. Skills: Referenced automatically when needed
 4. Hooks: Track progress automatically

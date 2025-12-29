@@ -1,0 +1,10 @@
+containers:
+  - docker
+  - kubernetes
+ci_cd:
+  - github_actions
+  - gitlab_ci
+cloud:
+  - aws
+  - gcp
+  - azure

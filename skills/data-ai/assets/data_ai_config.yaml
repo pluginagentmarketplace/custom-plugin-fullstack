@@ -1,0 +1,12 @@
+data:
+  - etl
+  - warehousing
+  - analytics
+ai:
+  - ml_models
+  - llm_integration
+  - embeddings
+tools:
+  - pandas
+  - pytorch
+  - langchain

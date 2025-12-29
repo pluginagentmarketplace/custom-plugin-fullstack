@@ -1,0 +1,12 @@
+areas:
+  - documentation
+  - community
+  - developer_experience
+content:
+  - tutorials
+  - blog_posts
+  - videos
+metrics:
+  - adoption
+  - engagement
+  - satisfaction
