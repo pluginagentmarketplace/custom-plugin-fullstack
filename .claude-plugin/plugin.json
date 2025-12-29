@@ -1,7 +1,7 @@
 {
   "name": "fullstack-development-assistant",
   "version": "1.0.0",
-  "description": "Full-stack development plugin with specialized agents for frontend, backend, database, and DevOps integration",
+  "description": "Full-stack development plugin with agents for frontend, backend, database, and DevOps integration",
   "author": "Claude Code",
   "license": "SEE LICENSE IN LICENSE",
   "keywords": [
@@ -23,41 +23,13 @@
     "url": "https://github.com/kamranahmedse/developer-roadmap"
   },
   "agents": [
-    {
-      "name": "Frontend & Mobile Developer",
-      "id": "frontend-mobile-agent",
-      "description": "Expert in frontend frameworks (React, Vue, Angular) and mobile development (iOS, Android, React Native, Flutter)"
-    },
-    {
-      "name": "Backend & Database Specialist",
-      "id": "backend-database-agent",
-      "description": "Specialist in backend technologies (Node.js, Python, Java), databases (SQL, PostgreSQL, MongoDB), and API design"
-    },
-    {
-      "name": "DevOps & Cloud Architect",
-      "id": "devops-cloud-agent",
-      "description": "Expert in cloud platforms (AWS, Azure, GCP), containerization (Docker, Kubernetes), and infrastructure automation"
-    },
-    {
-      "name": "Data Science & AI Engineer",
-      "id": "data-ai-agent",
-      "description": "Specialist in machine learning, data engineering, AI development, and MLOps workflows"
-    },
-    {
-      "name": "Security & Systems Designer",
-      "id": "security-systems-agent",
-      "description": "Expert in cybersecurity, system design, software architecture, and design patterns"
-    },
-    {
-      "name": "Product & QA Specialist",
-      "id": "product-qa-agent",
-      "description": "Specialist in product management, UX design, design systems, and quality assurance"
-    },
-    {
-      "name": "DevRel & Growth Strategist",
-      "id": "devrel-growth-agent",
-      "description": "Expert in developer relations, technical writing, engineering management, and growth strategies"
-    }
+    "./agents/01-fullstack-fundamentals.md",
+    "./agents/02-frontend-development.md",
+    "./agents/03-backend-development.md",
+    "./agents/04-database-design.md",
+    "./agents/05-devops-integration.md",
+    "./agents/06-testing-strategy.md",
+    "./agents/07-security-performance.md"
   ],
   "commands": [
     {
@@ -78,38 +50,13 @@
     }
   ],
   "skills": [
-    {
-      "name": "frontend-development",
-      "description": "Frontend frameworks and web technologies"
-    },
-    {
-      "name": "backend-development",
-      "description": "Backend frameworks and server technologies"
-    },
-    {
-      "name": "devops-infrastructure",
-      "description": "DevOps tools and cloud infrastructure"
-    },
-    {
-      "name": "data-science",
-      "description": "Data science and machine learning"
-    },
-    {
-      "name": "ai-engineering",
-      "description": "AI and LLM engineering"
-    },
-    {
-      "name": "security-systems",
-      "description": "Security and systems design"
-    },
-    {
-      "name": "product-design",
-      "description": "Product management and design"
-    },
-    {
-      "name": "devrel-content",
-      "description": "Developer relations and technical content"
-    }
+    "./skills/fullstack-basics/SKILL.md",
+    "./skills/frontend-development/SKILL.md",
+    "./skills/backend-development/SKILL.md",
+    "./skills/database-integration/SKILL.md",
+    "./skills/devops-fullstack/SKILL.md",
+    "./skills/fullstack-testing/SKILL.md",
+    "./skills/fullstack-security/SKILL.md"
   ],
   "hooks": {
     "enabled": true,
