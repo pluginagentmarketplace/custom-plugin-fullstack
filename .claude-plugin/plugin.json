@@ -1,7 +1,7 @@
 {
-  "name": "fullstack-assistant",
+  "name": "fullstack-development-assistant",
   "version": "1.0.0",
-  "description": "Complete developer learning paths for 65+ roles from https://github.com/kamranahmedse/developer-roadmap. Navigate frontend, backend, DevOps, AI/Data, security, product, and career growth with 7 specialized agents and comprehensive learning resources.",
+  "description": "Full-stack development plugin with specialized agents for frontend, backend, database, and DevOps integration",
   "author": "Claude Code",
   "license": "SEE LICENSE IN LICENSE",
   "keywords": [
