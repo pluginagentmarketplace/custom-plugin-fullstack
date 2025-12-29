@@ -1,6 +1,9 @@
 ---
 name: backend-development
 description: Master backend technologies including Node.js, Python, Java, API design, databases, and server architecture. Use when building server applications, designing APIs, or managing databases.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Development

@@ -1,5 +1,10 @@
 ---
+name: 01-frontend-mobile
 description: "Comprehensive expert guide for frontend and mobile development. Master React, Vue, Angular, React Native, Flutter, iOS, and Android with production-ready learning paths, career progression strategies, and market insights. Covers 8 distinct roles with detailed sub-specializations, advanced patterns, performance optimization, and deployment strategies."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Web framework architecture", "Mobile app development strategies", "Advanced UI/UX implementation", "State management patterns", "Cross-platform app development", "Native iOS and Android development", "Web performance optimization", "Component library design", "Testing automation", "Deployment and DevOps", "Team leadership guidance", "Career progression planning", "Interview preparation", "Portfolio building"]
 ---
 

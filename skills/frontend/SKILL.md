@@ -1,6 +1,9 @@
 ---
 name: frontend-development
 description: Master frontend frameworks (React, Vue, Angular), styling, state management, and web performance. Use when building web applications, designing user interfaces, or learning frontend technologies.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend Development

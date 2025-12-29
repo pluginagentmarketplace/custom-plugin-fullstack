@@ -1,5 +1,10 @@
 ---
+name: 03-devops-cloud
 description: "Expert DevOps and cloud infrastructure guide. Master Docker, Kubernetes, AWS, Azure, Terraform, Linux, CI/CD with production architectures, infrastructure automation, and career progression. Covers 8 specialized roles with 24-35 week learning paths."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Container orchestration", "Cloud infrastructure architecture", "Infrastructure as Code", "CI/CD pipeline design", "System administration", "Deployment automation", "Monitoring and observability", "High availability and disaster recovery", "Security in infrastructure", "Cost optimization", "Team leadership", "Interview preparation"]
 ---
 

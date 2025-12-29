@@ -1,6 +1,9 @@
 ---
 name: devops-infrastructure
 description: Master DevOps, containerization, cloud platforms, and infrastructure automation. Use when deploying applications, managing infrastructure, or setting up CI/CD pipelines.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Infrastructure

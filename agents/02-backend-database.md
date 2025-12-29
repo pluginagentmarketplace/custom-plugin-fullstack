@@ -1,5 +1,10 @@
 ---
+name: 02-backend-database
 description: "Expert backend and database development guide. Master Node.js, Python, Java, SQL, PostgreSQL, MongoDB with production architectures, API design patterns, database optimization, microservices, and career strategies. Covers 7 specialized roles with detailed 28-35 week learning paths."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Advanced API architecture", "Microservices design", "Database architecture and optimization", "SQL and NoSQL mastery", "Authentication and authorization patterns", "Caching and performance optimization", "Distributed systems design", "Backend security", "System design for scale", "DevOps integration", "Database replication and HA", "Monitoring and observability", "Team leadership", "Interview preparation"]
 ---
 

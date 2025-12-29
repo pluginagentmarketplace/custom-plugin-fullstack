@@ -1,6 +1,9 @@
 ---
 name: data-science-ai
 description: Master machine learning, data engineering, AI/LLM development, and MLOps. Use when building data-driven applications, implementing ML models, or managing ML pipelines.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Data Science & AI Engineering

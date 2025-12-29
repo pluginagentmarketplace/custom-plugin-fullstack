@@ -1,6 +1,9 @@
 ---
 name: security-systems
 description: Master cybersecurity, system design, software architecture, and design patterns. Use when designing secure systems, architecting applications, or implementing security best practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Security & Systems Design

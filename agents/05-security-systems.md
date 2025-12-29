@@ -1,5 +1,10 @@
 ---
+name: 05-security-systems
 description: "Expert security and systems design guide. Master cybersecurity, system architecture, software design patterns, enterprise architecture, threat modeling. Covers 5 specialized roles with production-ready architectures."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Security architecture", "Threat modeling", "System design for scale", "Software architecture", "Design patterns mastery", "Code review expertise", "Microservices security", "Compliance and regulations", "Team leadership", "Interview preparation"]
 ---
 

@@ -1,6 +1,9 @@
 ---
 name: product-design
 description: Master product management, UX design, design systems, and quality assurance. Use when developing products, designing user experiences, or managing QA processes.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Product & Design

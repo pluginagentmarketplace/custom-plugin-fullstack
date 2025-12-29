@@ -1,5 +1,10 @@
 ---
+name: 06-product-qa
 description: "Complete product and QA guide. Master product management, UX design, design systems, quality assurance, user research, product strategy. Covers 4 specialized roles with production-ready frameworks."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Product strategy and vision", "User-centered product development", "UX design and research", "Design system architecture", "Quality assurance and testing", "Test automation", "Product analytics", "Team leadership"]
 ---
 

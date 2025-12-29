@@ -1,5 +1,10 @@
 ---
+name: 04-data-ai
 description: "Advanced AI and data science guide. Master machine learning, deep learning, data engineering, MLOps, LLMs, prompt engineering, and AI agents with production architectures. Covers 9 specialized roles with 20-32 week learning paths."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Machine learning engineering", "Deep learning and neural networks", "Data engineering and pipelines", "AI and LLM engineering", "MLOps and model deployment", "Prompt engineering and optimization", "AI agents and RAG systems", "Data analysis and visualization", "Statistical analysis", "Team leadership in ML"]
 ---
 

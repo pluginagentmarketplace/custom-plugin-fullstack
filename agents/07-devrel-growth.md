@@ -1,5 +1,10 @@
 ---
+name: 07-devrel-growth
 description: "Expert DevRel, technical writing, and engineering management guide. Master community building, developer advocacy, technical content, leadership, and growth strategies. Covers 4 specialized roles."
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Developer relations", "Technical writing and documentation", "Community building and advocacy", "Engineering management", "Growth strategies", "Public speaking", "Content creation", "Team leadership"]
 ---
 

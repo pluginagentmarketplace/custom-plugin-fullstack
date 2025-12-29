@@ -1,6 +1,9 @@
 ---
 name: devrel-content
 description: Master developer relations, technical writing, community building, and growth strategies. Use when building developer communities, creating technical content, or managing developer programs.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-mobile
+bond_type: PRIMARY_BOND
 ---
 
 # Developer Relations & Content
