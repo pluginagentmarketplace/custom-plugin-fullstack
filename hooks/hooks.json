@@ -1,137 +1,355 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "schema_version": "1.3.0",
   "hooks": [
+    {
+      "event": "agent-invoked",
+      "name": "agent-execution-tracker",
+      "description": "Track agent execution and performance metrics",
+      "enabled": true,
+      "priority": 1,
+      "handlers": [
+        {
+          "action": "log-execution",
+          "timeout_ms": 1000,
+          "data": {
+            "log_level": "INFO",
+            "capture_input": true,
+            "capture_output": true,
+            "track_duration": true,
+            "trace_id_enabled": true
+          }
+        },
+        {
+          "action": "collect-metrics",
+          "timeout_ms": 500,
+          "data": {
+            "metrics": [
+              "execution_time_ms",
+              "token_usage",
+              "confidence_score",
+              "tool_calls_count"
+            ],
+            "export_format": "opentelemetry"
+          }
+        }
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true,
+        "fallback_action": null
+      }
+    },
+    {
+      "event": "skill-invoked",
+      "name": "skill-execution-tracker",
+      "description": "Track skill execution with parameter validation",
+      "enabled": true,
+      "priority": 1,
+      "handlers": [
+        {
+          "action": "validate-parameters",
+          "timeout_ms": 500,
+          "data": {
+            "schema_validation": true,
+            "type_checking": true,
+            "required_fields_check": true
+          }
+        },
+        {
+          "action": "log-skill-usage",
+          "timeout_ms": 1000,
+          "data": {
+            "log_level": "INFO",
+            "include_params": true,
+            "redact_sensitive": true
+          }
+        }
+      ],
+      "error_handling": {
+        "on_failure": "abort",
+        "log_error": true,
+        "fallback_action": "return_validation_error"
+      }
+    },
     {
       "event": "command-executed",
       "name": "track-learning-progress",
       "description": "Track user progress through learning paths",
       "enabled": true,
+      "priority": 2,
       "handlers": [
         {
           "action": "log-progress",
+          "timeout_ms": 2000,
           "data": {
             "event": "learning_milestone",
             "track_user_journey": true,
-            "enable_achievements": true
+            "enable_achievements": true,
+            "persistence": "session"
+          }
+        },
+        {
+          "action": "emit-telemetry",
+          "timeout_ms": 1000,
+          "data": {
+            "event_name": "command_executed",
+            "include_context": true
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true
+      }
     },
     {
       "event": "skill-completed",
       "name": "skill-completion-handler",
       "description": "Handle skill completion and unlock next topics",
       "enabled": true,
+      "priority": 2,
       "handlers": [
         {
           "action": "unlock-content",
+          "timeout_ms": 2000,
           "data": {
             "next_topic_enabled": true,
             "show_congratulations": true,
-            "recommend_next_path": true
+            "recommend_next_path": true,
+            "update_progress_bar": true
           }
         },
         {
           "action": "update-profile",
+          "timeout_ms": 1500,
           "data": {
             "update_user_skills": true,
-            "calculate_proficiency": true
+            "calculate_proficiency": true,
+            "store_completion_time": true
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "retry",
+        "max_retries": 2,
+        "log_error": true
+      }
     },
     {
       "event": "assessment-completed",
       "name": "assessment-completion-handler",
       "description": "Generate assessment report and recommendations",
       "enabled": true,
+      "priority": 2,
       "handlers": [
         {
           "action": "generate-report",
+          "timeout_ms": 5000,
           "data": {
             "detailed_analysis": true,
             "identify_gaps": true,
-            "suggest_learning_path": true
+            "suggest_learning_path": true,
+            "export_formats": ["json", "markdown"]
           }
         },
         {
           "action": "personalize-recommendations",
+          "timeout_ms": 3000,
           "data": {
             "use_ai_matching": true,
             "consider_market_trends": true,
-            "suggest_resources": true
+            "suggest_resources": true,
+            "prioritize_by_impact": true
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true,
+        "fallback_action": "return_basic_report"
+      }
     },
     {
       "event": "project-created",
       "name": "project-tracker",
       "description": "Track user projects and learning through building",
       "enabled": true,
+      "priority": 3,
       "handlers": [
         {
           "action": "validate-project",
+          "timeout_ms": 3000,
           "data": {
             "check_requirements": true,
-            "provide_feedback": true
+            "provide_feedback": true,
+            "validate_structure": true,
+            "check_dependencies": true
           }
         },
         {
           "action": "award-badges",
+          "timeout_ms": 2000,
           "data": {
             "project_completion": true,
-            "quality_metrics": true
+            "quality_metrics": true,
+            "badge_types": ["completion", "quality", "speed"]
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true
+      }
+    },
+    {
+      "event": "error-occurred",
+      "name": "error-handler",
+      "description": "Handle and log errors with recovery procedures",
+      "enabled": true,
+      "priority": 0,
+      "handlers": [
+        {
+          "action": "log-error",
+          "timeout_ms": 1000,
+          "data": {
+            "log_level": "ERROR",
+            "include_stack_trace": true,
+            "include_context": true,
+            "redact_sensitive": true
+          }
+        },
+        {
+          "action": "attempt-recovery",
+          "timeout_ms": 5000,
+          "data": {
+            "retry_on_transient": true,
+            "fallback_strategies": ["cache", "default_response"],
+            "escalate_on_persistent": true
+          }
+        },
+        {
+          "action": "emit-alert",
+          "timeout_ms": 2000,
+          "data": {
+            "severity_threshold": "high",
+            "notification_channels": ["log", "metrics"],
+            "include_recovery_suggestions": true
+          }
+        }
+      ],
+      "error_handling": {
+        "on_failure": "log_and_continue",
+        "log_error": true
+      }
     },
     {
       "event": "community-interaction",
       "name": "community-engagement",
       "description": "Encourage and track community participation",
       "enabled": true,
+      "priority": 4,
       "handlers": [
         {
           "action": "log-participation",
+          "timeout_ms": 2000,
           "data": {
             "track_questions_asked": true,
             "track_answers_given": true,
-            "track_collaborations": true
+            "track_collaborations": true,
+            "calculate_reputation": true
           }
         },
         {
           "action": "suggest-discussions",
+          "timeout_ms": 3000,
           "data": {
             "based_on_learning_path": true,
-            "connect_with_peers": true
+            "connect_with_peers": true,
+            "recommend_mentors": true
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true
+      }
     },
     {
       "event": "milestone-achieved",
       "name": "milestone-celebration",
       "description": "Celebrate learning milestones and achievements",
       "enabled": true,
+      "priority": 3,
       "handlers": [
         {
           "action": "send-celebration",
+          "timeout_ms": 2000,
           "data": {
             "show_notification": true,
             "award_certificate": true,
-            "share_achievement": true
+            "share_achievement": true,
+            "unlock_rewards": true
+          }
+        },
+        {
+          "action": "update-leaderboard",
+          "timeout_ms": 1500,
+          "data": {
+            "update_rankings": true,
+            "notify_peers": false
           }
         }
-      ]
+      ],
+      "error_handling": {
+        "on_failure": "continue",
+        "log_error": true
+      }
     }
   ],
   "config": {
     "enabled": true,
-    "logging": true,
-    "error_handling": "graceful",
-    "timeout_ms": 5000,
-    "retry_attempts": 3,
-    "retry_delay_ms": 1000
+    "logging": {
+      "enabled": true,
+      "level": "INFO",
+      "format": "json",
+      "include_timestamps": true,
+      "redact_pii": true
+    },
+    "error_handling": {
+      "strategy": "graceful",
+      "log_all_errors": true,
+      "emit_error_metrics": true
+    },
+    "retry": {
+      "enabled": true,
+      "max_attempts": 3,
+      "initial_delay_ms": 1000,
+      "max_delay_ms": 10000,
+      "backoff": "exponential",
+      "jitter": true
+    },
+    "timeout": {
+      "default_ms": 5000,
+      "max_ms": 30000
+    },
+    "observability": {
+      "tracing_enabled": true,
+      "metrics_enabled": true,
+      "trace_sampling_rate": 1.0,
+      "export_format": "opentelemetry"
+    },
+    "circuit_breaker": {
+      "enabled": true,
+      "failure_threshold": 5,
+      "reset_timeout_ms": 30000,
+      "half_open_requests": 3
+    }
+  },
+  "metadata": {
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2025-01-01T00:00:00Z",
+    "author": "Plugin Agent Marketplace",
+    "description": "Production-grade hooks configuration for fullstack development plugin"
   }
 }
