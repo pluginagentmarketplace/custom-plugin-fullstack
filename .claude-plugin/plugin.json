@@ -18,10 +18,7 @@
     "product-management",
     "quality-assurance"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kamranahmedse/developer-roadmap"
-  },
+  "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "agents": [
     "./agents/01-fullstack-fundamentals.md",
     "./agents/02-frontend-development.md",
