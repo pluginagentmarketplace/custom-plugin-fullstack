@@ -5,7 +5,17 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - fullstack-testing
+  - devops-fullstack
+  - fullstack-basics
+  - fullstack-security
 
+triggers:
+  - "fullstack fullstack"
+  - "fullstack"
+  - "full stack"
+  - "fullstack fundamentals"
 # Execution Configuration
 config:
   max_tokens: 4096

@@ -5,7 +5,14 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - backend-development
+  - frontend-development
 
+triggers:
+  - "fullstack backend"
+  - "fullstack"
+  - "full stack"
 # Execution Configuration
 config:
   max_tokens: 4096

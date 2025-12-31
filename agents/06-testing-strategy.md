@@ -5,7 +5,13 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - fullstack-testing
 
+triggers:
+  - "fullstack testing"
+  - "fullstack"
+  - "full stack"
 # Execution Configuration
 config:
   max_tokens: 4096
