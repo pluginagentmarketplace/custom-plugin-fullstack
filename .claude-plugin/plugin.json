@@ -54,9 +54,5 @@
     "./skills/devops-fullstack/SKILL.md",
     "./skills/fullstack-testing/SKILL.md",
     "./skills/fullstack-security/SKILL.md"
-  ],
-  "hooks": {
-    "enabled": true,
-    "config": "hooks/hooks.json"
-  }
+  ]
 }

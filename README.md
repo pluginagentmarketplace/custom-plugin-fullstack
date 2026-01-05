@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-fullstack
+/plugin marketplace add pluginagentmarketplace/custom-plugin-fullstack
 
 # Step 2️⃣ Install the plugin
 /plugin install fullstack-assistant@pluginagentmarketplace-fullstack
